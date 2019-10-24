@@ -24,5 +24,8 @@
   "homepage": "https://github.com/aliciapalacios10/MEX008-FE-md-link#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "marked": "^0.7.0"
   }
 }
