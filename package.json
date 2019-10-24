@@ -1,4 +1,25 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "aliciapalacios-md-links",
+  "version": "1.0.0",
+  "description": "## Índice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliciapalacios10/MEX008-FE-md-link.git"
+  },
+  "author": "Alicia Palacios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliciapalacios10/MEX008-FE-md-link/issues"
+  },
+  "homepage": "https://github.com/aliciapalacios10/MEX008-FE-md-link#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
