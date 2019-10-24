@@ -15,6 +15,9 @@
   },
   "author": "Alicia Palacios",
   "license": "MIT",
+  "bin": {
+    "smile-links": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/aliciapalacios10/MEX008-FE-md-link/issues"
   },
