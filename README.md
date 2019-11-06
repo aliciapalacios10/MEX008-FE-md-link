@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+<!-- * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -11,7 +11,7 @@
 * [7. Hacker edition](#7-hacker-edition)
 * [8. Evaluación](#8-evaluación)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Checklist](#10-checklist)
+* [10. Checklist](#10-checklist) -->
 
 ***
 
