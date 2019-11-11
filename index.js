@@ -18,6 +18,7 @@ const mdLinks = (url, option1, option2) => {
             const newArray = new Set(result.map((item) => {
               return item.href
             }));
+
             console.log("Total:", result.length);
             console.log("Unicos:", newArray.size);
 
@@ -25,8 +26,13 @@ const mdLinks = (url, option1, option2) => {
             result.forEach(element => {
               getValidateLinks(element)
                 .then(res => {
+                  // if (res !== 200 && res !== 201) {
+                  //   broken++
+                  // }
                   console.log("Link:", element.href);
                   console.log("Status:", res)
+                  // console.log("Broken:", broken.size);
+
                 })
                 .catch(err => {
                   console.log(err);
@@ -39,6 +45,7 @@ const mdLinks = (url, option1, option2) => {
             }));
             console.log("Total:", result.length);
             console.log("Unicos:", newArray.size);
+
           }
         })
         .catch(error => console.error(error));

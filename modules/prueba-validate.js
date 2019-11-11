@@ -1,22 +1,22 @@
-const fetchUrl = require("fetch").fetchUrl;
-// const links = element.href;
+// const fetchUrl = require("fetch").fetchUrl;
+// // const links = element.href;
 
 
-const validateLinks = (url) => {
-  console.log("LLega a validateLinks");
-  console.log("url", url);
-  return new Promise((resolve, reject) => {
-    fetchUrl(url ,(error, meta, body) => {
-      if (meta){
-        resolve(meta.status);
-      } else {
-        reject(error);
-      }
-    });
-  });
-}
+// const validateLinks = (url) => {
+//   console.log("LLega a validateLinks");
+//   console.log("url", url);
+//   return new Promise((resolve, reject) => {
+//     fetchUrl(url ,(error, meta, body) => {
+//       if (meta){
+//         resolve(meta.status);
+//       } else {
+//         reject(error);
+//       }
+//     });
+//   });
+// }
 
-module.exports = validateLinks;
+// module.exports = validateLinks;
 
 
 
